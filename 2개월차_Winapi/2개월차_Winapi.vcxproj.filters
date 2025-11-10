@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{a2c46ea1-cd9e-4124-a45b-d423f0eda43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object">
+      <UniqueIdentifier>{e9406b3a-e0a9-453a-b170-3981461a865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Player">
+      <UniqueIdentifier>{2fd1d6d9-1b5c-4366-bdbf-eaba2259f795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Bullet">
+      <UniqueIdentifier>{a1939342-a139-429f-abca-756dde613245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Bullet\Missile2">
+      <UniqueIdentifier>{0a39cba1-e34c-4e13-b945-58facf752e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Bullet\Missile">
+      <UniqueIdentifier>{c8f3c09b-75bd-4f9d-9b59-6e53fbcb1b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster">
+      <UniqueIdentifier>{eee3afd1-04f7-4548-b25f-d901e5ca4a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Bullet\Monster_Missile">
+      <UniqueIdentifier>{36efcefe-3537-4b72-980c-3b86ab13f54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Tile">
+      <UniqueIdentifier>{2c7db5d7-bcc2-4177-836b-664df86db68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI">
+      <UniqueIdentifier>{92c964b7-6138-46e6-917a-61aebf880ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\PanelUI">
+      <UniqueIdentifier>{1e5eb96c-cd13-41ce-ae8e-4acf0cba46df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\BtnUI">
+      <UniqueIdentifier>{d1a82d95-1d13-4f0f-81c8-c4832459b718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01.Header">
+      <UniqueIdentifier>{af320847-e09f-479d-9f5c-b08b0337ddc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02.Core">
+      <UniqueIdentifier>{48065720-5e36-4b29-8d87-9713d0668b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager">
+      <UniqueIdentifier>{35703ce1-ba15-467b-ad36-7a6985b8d119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\KeyMgr">
+      <UniqueIdentifier>{7410a58b-0e4d-4a7d-bb8b-349e9ac8eacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\SceneMgr">
+      <UniqueIdentifier>{bb41b1ed-4c33-4635-9fe1-569dde27cdfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\PathMgr">
+      <UniqueIdentifier>{5b17d520-2d40-4140-9eda-a11b982e3b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\ResMgr">
+      <UniqueIdentifier>{e98f9533-c8f1-4c94-8296-f223f8bcc919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\CollisionMgr">
+      <UniqueIdentifier>{78e12e03-dbc7-4c79-bb8a-777eb3c212b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\EventMgr">
+      <UniqueIdentifier>{7f803f5a-20f3-458b-9be0-7f8a7e87ad78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\CTimeMgr">
+      <UniqueIdentifier>{e4871ad9-cae0-4083-acbf-784dcc4f5c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\Camera">
+      <UniqueIdentifier>{4e2fec6c-a4ee-467f-9dda-f77585cde51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\UIMgr">
+      <UniqueIdentifier>{5604d5cd-9554-4471-9fc4-9bb3ae326b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene">
+      <UniqueIdentifier>{8cb3a073-c837-4988-b7a0-77018c1884ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_Start">
+      <UniqueIdentifier>{9003dc79-6d8c-476d-8f5a-35b944564b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_Tool">
+      <UniqueIdentifier>{d63dd547-0054-4e4c-8acd-fb0945c3f19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component">
+      <UniqueIdentifier>{4d63a617-2856-4206-b4cc-e35ddba23b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\CCollider">
+      <UniqueIdentifier>{9f3e3c0c-a132-485d-a5cb-b5b6d01da0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\Animator">
+      <UniqueIdentifier>{13ce4920-5cab-49f4-bdd3-b40dbf6f210d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\Animator\Animation">
+      <UniqueIdentifier>{c4f41ace-e793-46ce-8c2c-4c9b224eb7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module">
+      <UniqueIdentifier>{61346998-ae16-42cc-9450-8e430db7b732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Resource">
+      <UniqueIdentifier>{654f5c4b-22ce-4cf4-a79d-4c0ee910371a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Resource\Texture">
+      <UniqueIdentifier>{49ebd070-b9f7-4bb8-a700-57585e20d91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Resource\Sound">
+      <UniqueIdentifier>{c4ad65e1-386f-4d63-959f-242298bbd4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI">
+      <UniqueIdentifier>{9a9f1831-93ef-4ef0-905a-4b278876066c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI\State">
+      <UniqueIdentifier>{0b033c8a-df39-40ed-9466-0a221d1f70cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI\State\Idle">
+      <UniqueIdentifier>{f2b8870e-00cc-4a79-b7bc-7c0640a3a6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI\State\Attack">
+      <UniqueIdentifier>{9e1a93bf-1116-4d8f-bfc0-2af9d71e0bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI\State\Dead">
+      <UniqueIdentifier>{d16b3898-58e5-4142-a101-6f9047bb844b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI\State\Trace">
+      <UniqueIdentifier>{7f2b666c-1215-4480-89d5-d9ed56988445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09.Factory">
+      <UniqueIdentifier>{6a6d4e56-2cb3-4f53-ad06-c5563fc6f64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09.Factory\MonFactory">
+      <UniqueIdentifier>{e268101d-7485-4fd0-a043-3b72858d7874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\RigidBody">
+      <UniqueIdentifier>{7eac18f4-a37c-419b-a4c7-29e6742de00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\Gravity">
+      <UniqueIdentifier>{54472a76-003e-435c-a30a-2e2838dec598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Ground">
+      <UniqueIdentifier>{032a9731-52b3-4ac3-853f-cdf75d7c259f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround">
+      <UniqueIdentifier>{adcc7846-a60d-482d-88d6-3bf320b90953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\PlayerMgr">
+      <UniqueIdentifier>{93c872b6-2e35-4a58-bf1b-a31e5eab1022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect">
+      <UniqueIdentifier>{3d728218-1847-44cc-b20b-171d03fb4961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player">
+      <UniqueIdentifier>{0e61ede9-3b42-4aa6-9f30-3a8370588a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\SLASH">
+      <UniqueIdentifier>{f422b0d9-4d61-4875-ae9c-5b10fae22f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\Beetle2">
+      <UniqueIdentifier>{ff7edddc-887e-4b83-919b-63a8a65d50ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\Beetle">
+      <UniqueIdentifier>{78bffc4b-8829-4683-a0d5-1be3ef153a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\HpBar">
+      <UniqueIdentifier>{9840f29d-ccaf-40b5-9238-4578d994ad6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\Fireball">
+      <UniqueIdentifier>{35d73c53-49e5-4fcd-9dff-dc2a7d05b7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\ProFireball">
+      <UniqueIdentifier>{e61683aa-20a0-4d01-9e35-f5e9dbaa7995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\FalseKnight">
+      <UniqueIdentifier>{97e137e5-984a-402b-be1c-ed2d12848fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Geo">
+      <UniqueIdentifier>{7b922878-4671-4612-a51d-6036eee4bda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\SoulUI">
+      <UniqueIdentifier>{c054a71f-223d-46d9-88c3-a4f4047706c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\SlashHitEffect">
+      <UniqueIdentifier>{7ff63768-9e66-465f-a29e-f00c10537a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\Focus">
+      <UniqueIdentifier>{5d878ae0-c3aa-43e7-a1fe-2028ec2390f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\DashEffect">
+      <UniqueIdentifier>{fdb12a25-a5a2-4c88-86fb-97092fdbf4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\FalseKnight\Stone">
+      <UniqueIdentifier>{13e7fdc9-b517-40d3-ba1b-cb6ba5f7fb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\UPSLASH">
+      <UniqueIdentifier>{54a3d063-ce07-440c-bef8-53a6aa1c0bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\SoundMgr">
+      <UniqueIdentifier>{d38ea638-dd96-4721-be10-9605ff194564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\HUD">
+      <UniqueIdentifier>{07e95edd-18c1-47eb-a9ee-2bde1ac97ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\LiquidUI">
+      <UniqueIdentifier>{c478df82-c3da-4092-92a0-9de6cd58d261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\BlackFilter">
+      <UniqueIdentifier>{8e1a1923-0a4c-435d-81af-5719c87157e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\PlayerDamaged">
+      <UniqueIdentifier>{0a96f3da-c51c-422f-863b-327825f03887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\FalseKnight">
+      <UniqueIdentifier>{45e4c7a7-5bb7-48c4-b0dc-61ec1c240f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_Second">
+      <UniqueIdentifier>{6931d844-3329-4735-b21b-4152962653f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\Town">
+      <UniqueIdentifier>{e14841b4-2f7b-4703-816c-e825c0651cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Npc">
+      <UniqueIdentifier>{05a1e5cc-1949-45de-8285-38ccde35ba02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Npc\NpcReaction">
+      <UniqueIdentifier>{cfb9d022-309f-4e08-9a3b-99d7c9855f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Quest">
+      <UniqueIdentifier>{881dd553-10a3-48e8-827b-5e70dc6ed48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Quest\ElderBug">
+      <UniqueIdentifier>{3da90021-4a2a-4e9f-b9e1-28fac07366e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory">
+      <UniqueIdentifier>{6fcfa623-8eae-43e2-8f7a-a75adeabc30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory\Item">
+      <UniqueIdentifier>{dc238d97-45d5-4de1-83d1-67c13ce6f528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory\Item\cloak_item">
+      <UniqueIdentifier>{e0ce541a-93bd-464a-bb3a-f24786bd4413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory\Item\item_window">
+      <UniqueIdentifier>{daad8be6-1eac-40fc-9c7f-9d58719eb773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory\Item\wing_item">
+      <UniqueIdentifier>{c26b3c75-cb1d-4dbe-acfa-48794181e5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Inventory\Item\item_cusor">
+      <UniqueIdentifier>{0c77d939-1201-483c-a1ca-25ddfbb96628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_Third">
+      <UniqueIdentifier>{cb1f85cd-39c2-4fda-8b6b-66ff1fe4903c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\HornetBossRoom">
+      <UniqueIdentifier>{08d6476e-6fbc-4d54-9afa-ac4e7e472a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\Hornet">
+      <UniqueIdentifier>{150f8243-6664-4749-bd6d-6cfcb7d2fb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet">
+      <UniqueIdentifier>{994cb56f-8ff5-4021-bf5b-d6bceaefe337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet\DashEffect">
+      <UniqueIdentifier>{97643246-1b4a-4bea-a0f7-204091f7b0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet\Needle">
+      <UniqueIdentifier>{d22c3472-7b31-44d8-93dc-388eeb408ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet\NeedleThread">
+      <UniqueIdentifier>{5feddf6f-c2dc-4182-994e-179154b1b51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet\ThrowEffect">
+      <UniqueIdentifier>{e479ac17-6b40-4e7d-a430-2bd9dff853ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Hornet\SphereBall">
+      <UniqueIdentifier>{4c4d61c8-1332-44da-a473-43b612980173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\StunEffect">
+      <UniqueIdentifier>{59b9b44c-5f04-4340-8535-5b6bfb8112fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Game_Start">
+      <UniqueIdentifier>{51da89c5-241e-4c76-80fd-4208b73844d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\StartBackGround">
+      <UniqueIdentifier>{f144ed54-a499-40f4-89f0-2f8a10ae4ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\StartBackGround\StartCusor">
+      <UniqueIdentifier>{92cfca52-9be5-4149-8c93-2039c1e57002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\DownSlash">
+      <UniqueIdentifier>{f0eece22-2458-485a-89e1-3682630af15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\CrawlBug">
+      <UniqueIdentifier>{58453e3b-3490-4011-8268-d19e05f79b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\FlyBug">
+      <UniqueIdentifier>{92024e14-246e-4440-b7fc-9da397e72142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\DashBug">
+      <UniqueIdentifier>{93f171d8-192e-4d68-b682-3f16f204bd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_FinalBoss">
+      <UniqueIdentifier>{12391378-f123-49af-9ef3-096a927d908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\FinalBossRoom">
+      <UniqueIdentifier>{3954375d-2b5c-486b-94f8-b98c3174d8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\PureVessel">
+      <UniqueIdentifier>{5813d5aa-6b6e-45e5-b971-2cf0ccbb830e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel">
+      <UniqueIdentifier>{a3743ae7-c1f6-4884-965b-68b249abca44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spike">
+      <UniqueIdentifier>{6a665967-0b91-4c03-b317-9458f64cf954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Orb">
+      <UniqueIdentifier>{a6128eb0-4c77-4316-af14-18812caff6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear">
+      <UniqueIdentifier>{5126ca52-62ce-4d7c-aaee-1d63492c4cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear5angle">
+      <UniqueIdentifier>{6793b5ee-2d62-4e8b-9d50-1c5910f9d20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear20minusAngle">
+      <UniqueIdentifier>{de594c8e-7405-480f-a9cd-bd239cf48722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear30angle">
+      <UniqueIdentifier>{c5a64492-a19e-4749-be93-da0f24d451c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear8_5minusAngle">
+      <UniqueIdentifier>{bb747dc9-bdc9-445a-a636-46b233002327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\PureVessel\Spear15angle">
+      <UniqueIdentifier>{7cdd5758-d126-408d-9486-cb1d699331d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_Stage02">
+      <UniqueIdentifier>{ed3c3b98-2156-4f01-9833-d82239f6d9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\Stage2">
+      <UniqueIdentifier>{c346f37a-414d-4b12-a615-73d459b7b1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\Wing">
+      <UniqueIdentifier>{66db8c38-9601-45db-b759-1a012886de32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\NewDashEffect">
+      <UniqueIdentifier>{19fdf5aa-4a35-4dbc-b9da-7cc648f31763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Store">
+      <UniqueIdentifier>{e55b869e-5db2-49bd-8df4-2e27e8f743c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Npc\Trump">
+      <UniqueIdentifier>{fed66dd1-9b8b-452a-bc58-19b8d18beda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Store\StoreCusor">
+      <UniqueIdentifier>{03ed2b68-0660-4389-8b77-976bf88f18db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\Store\StoreItemlist">
+      <UniqueIdentifier>{dc2d61f6-c528-4226-93f3-e3619309ab2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Monster\MushRoom">
+      <UniqueIdentifier>{6d9bce56-ea0b-4eaa-911c-78e6e474d9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\StunEffect">
+      <UniqueIdentifier>{30ee720d-d0d3-4222-82d2-252ca3fbaadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_End">
+      <UniqueIdentifier>{15a45d64-9ed7-4d4e-8cbf-fb8db7c71a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\BackGround\EndingBackGround">
+      <UniqueIdentifier>{d569e968-1845-42c7-94ad-7d4bf7dfb3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\GeoRock">
+      <UniqueIdentifier>{b8df866a-205b-4428-ab27-e89925c426ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\Scene_FinalbossVideo">
+      <UniqueIdentifier>{9909bb94-c751-4c59-9452-d17bd28de072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Effect\Player\ProFireballHitEffect">
+      <UniqueIdentifier>{239a3ddd-cd7f-4e3a-aee4-aeaec9eff15c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2개월차_Winapi.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Core.h">
+      <Filter>Engine\02.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Engine\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Engine\03.Manager\CTimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Engine\05.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>Engine\05.Scene\Scene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Engine\04.Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Engine\04.Object\Bullet\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile2.h">
+      <Filter>Engine\04.Object\Bullet\Missile2</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Engine\06.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Engine\06.Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Engine\03.Manager\PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Engine\03.Manager\ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Engine\07. Component\CCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGDI.h">
+      <Filter>Engine\08.Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Engine\03.Manager\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Engine\03.Manager\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_Missile.h">
+      <Filter>Engine\04.Object\Bullet\Monster_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Tool.h">
+      <Filter>Engine\05.Scene\Scene_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Engine\07. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Engine\07. Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Engine\04.Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Engine\03.Manager\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Engine\04.Object\UI\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnUI.h">
+      <Filter>Engine\04.Object\UI\BtnUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Engine\08.Module\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Engine\08.Module\AI\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CIdleState.h">
+      <Filter>Engine\08.Module\AI\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraceState.h">
+      <Filter>Engine\08.Module\AI\State\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonFactory.h">
+      <Filter>Engine\09.Factory\MonFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Engine\04.Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Engine\07. Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravity.h">
+      <Filter>Engine\07. Component\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>Engine\04.Object\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGround.h">
+      <Filter>Engine\04.Object\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMgr.h">
+      <Filter>Engine\03.Manager\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSLASH.h">
+      <Filter>Engine\04.Object\Effect\Player\SLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="CBeetle.h">
+      <Filter>Engine\04.Object\Monster\Beetle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CBeetle_New.h">
+      <Filter>Engine\04.Object\Monster\Beetle</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpBarUI.h">
+      <Filter>Engine\04.Object\UI\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CFocus.h">
+      <Filter>Engine\04.Object\Effect\Player\Focus</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireBall.h">
+      <Filter>Engine\04.Object\Effect\Player\Fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="CProFireBall.h">
+      <Filter>Engine\04.Object\Effect\Player\ProFireball</Filter>
+    </ClInclude>
+    <ClInclude Include="CFalseKnight.h">
+      <Filter>Engine\04.Object\Monster\FalseKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Engine\04.Object\UI\Inventory\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeo.h">
+      <Filter>Engine\04.Object\UI\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoulUI.h">
+      <Filter>Engine\04.Object\UI\SoulUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlashHitEffect.h">
+      <Filter>Engine\04.Object\Effect\Player\SlashHitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CDashEffect.h">
+      <Filter>Engine\04.Object\Effect\Player\DashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Engine\03.Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CStone.h">
+      <Filter>Engine\04.Object\Monster\FalseKnight\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="CUPSLASH.h">
+      <Filter>Engine\04.Object\Effect\Player\UPSLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Engine\03.Manager\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Engine\06.Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CHUD.h">
+      <Filter>Engine\04.Object\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="CLiquidUI.h">
+      <Filter>Engine\04.Object\UI\LiquidUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlackFilter.h">
+      <Filter>Engine\04.Object\UI\BlackFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDamaged.h">
+      <Filter>Engine\04.Object\Effect\Player\PlayerDamaged</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackWave.h">
+      <Filter>Engine\04.Object\Effect\FalseKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Second.h">
+      <Filter>Engine\05.Scene\Scene_Second</Filter>
+    </ClInclude>
+    <ClInclude Include="CTown.h">
+      <Filter>Engine\04.Object\BackGround\Town</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpc.h">
+      <Filter>Engine\04.Object\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcreaction.h">
+      <Filter>Engine\04.Object\Npc\NpcReaction</Filter>
+    </ClInclude>
+    <ClInclude Include="CElderBugQuest.h">
+      <Filter>Engine\04.Object\UI\Quest\ElderBug</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>Engine\04.Object\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Cclock_Item.h">
+      <Filter>Engine\04.Object\UI\Inventory\Item\cloak_item</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemCusor.h">
+      <Filter>Engine\04.Object\UI\Inventory\Item\item_cusor</Filter>
+    </ClInclude>
+    <ClInclude Include="CWing_item.h">
+      <Filter>Engine\04.Object\UI\Inventory\Item\wing_item</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Thrid.h">
+      <Filter>Engine\05.Scene\Scene_Third</Filter>
+    </ClInclude>
+    <ClInclude Include="CHornetBossRoom.h">
+      <Filter>Engine\04.Object\BackGround\HornetBossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CHornet.h">
+      <Filter>Engine\04.Object\Monster\Hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="CHornetDashEffect.h">
+      <Filter>Engine\04.Object\Effect\Hornet\DashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CNeedle.h">
+      <Filter>Engine\04.Object\Effect\Hornet\Needle</Filter>
+    </ClInclude>
+    <ClInclude Include="CNeedleThread.h">
+      <Filter>Engine\04.Object\Effect\Hornet\NeedleThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CThrowEffect.h">
+      <Filter>Engine\04.Object\Effect\Hornet\ThrowEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CSphereBall.h">
+      <Filter>Engine\04.Object\Effect\Hornet\SphereBall</Filter>
+    </ClInclude>
+    <ClInclude Include="CStunEffect.h">
+      <Filter>Engine\04.Object\Effect\StunEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Game_Start.h">
+      <Filter>Engine\05.Scene\Game_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartBackGround.h">
+      <Filter>Engine\04.Object\BackGround\StartBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartCusor.h">
+      <Filter>Engine\04.Object\BackGround\StartBackGround\StartCusor</Filter>
+    </ClInclude>
+    <ClInclude Include="CDownSlash.h">
+      <Filter>Engine\04.Object\Effect\Player\DownSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrawlBug.h">
+      <Filter>Engine\04.Object\Monster\CrawlBug</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlyBug.h">
+      <Filter>Engine\04.Object\Monster\FlyBug</Filter>
+    </ClInclude>
+    <ClInclude Include="CDashBug.h">
+      <Filter>Engine\04.Object\Monster\DashBug</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_FinalBoss.h">
+      <Filter>Engine\05.Scene\Scene_FinalBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="CFinalBossRoom.h">
+      <Filter>Engine\04.Object\BackGround\FinalBossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CPureVessel.h">
+      <Filter>Engine\04.Object\Monster\PureVessel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpikeEffect.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="COrb.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Orb</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear20minusAngle.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear20minusAngle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear5angle.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear5angle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear8_5MinusAngle.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear8_5minusAngle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear30angle.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear30angle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpear15Angle.h">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear15angle</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage2.h">
+      <Filter>Engine\05.Scene\Scene_Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage2.h">
+      <Filter>Engine\04.Object\BackGround\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="CWing.h">
+      <Filter>Engine\04.Object\Effect\Player\Wing</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewDashEffect.h">
+      <Filter>Engine\04.Object\Effect\Player\NewDashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CStore.h">
+      <Filter>Engine\04.Object\UI\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrump.h">
+      <Filter>Engine\04.Object\Npc\Trump</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoreCusor.h">
+      <Filter>Engine\04.Object\UI\Store\StoreCusor</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoreItemlist.h">
+      <Filter>Engine\04.Object\UI\Store\StoreItemlist</Filter>
+    </ClInclude>
+    <ClInclude Include="CMushRoom.h">
+      <Filter>Engine\04.Object\Monster\MushRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStunEffect.h">
+      <Filter>Engine\04.Object\Effect\Player\StunEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CEndingBackGround.h">
+      <Filter>Engine\04.Object\BackGround\EndingBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_End.h">
+      <Filter>Engine\05.Scene\Scene_End</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeoRock.h">
+      <Filter>Engine\04.Object\GeoRock</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneFinalbossVideo.h">
+      <Filter>Engine\05.Scene\Scene_FinalbossVideo</Filter>
+    </ClInclude>
+    <ClInclude Include="CProFireballHitEffect.h">
+      <Filter>Engine\04.Object\Effect\Player\ProFireballHitEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2개월차_Winapi.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Core.cpp">
+      <Filter>Engine\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Engine\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Engine\03.Manager\CTimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Engine\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>Engine\05.Scene\Scene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Engine\04.Object\Bullet\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile2.cpp">
+      <Filter>Engine\04.Object\Bullet\Missile2</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Engine\06.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Engine\06.Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Engine\03.Manager\PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Engine\03.Manager\ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Engine\07. Component\CCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGDI.cpp">
+      <Filter>Engine\08.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Engine\03.Manager\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Engine\03.Manager\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_Missile.cpp">
+      <Filter>Engine\04.Object\Bullet\Monster_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Tool.cpp">
+      <Filter>Engine\05.Scene\Scene_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Engine\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Engine\05.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Engine\04.Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Engine\07. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Engine\07. Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Engine\03.Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Engine\04.Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Engine\03.Manager\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Engine\04.Object\UI\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnUI.cpp">
+      <Filter>Engine\04.Object\UI\BtnUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Engine\08.Module\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Engine\08.Module\AI\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CIdleState.cpp">
+      <Filter>Engine\08.Module\AI\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CTraceState.cpp">
+      <Filter>Engine\08.Module\AI\State\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonFactory.cpp">
+      <Filter>Engine\09.Factory\MonFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Engine\04.Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Engine\07. Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravity.cpp">
+      <Filter>Engine\07. Component\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>Engine\04.Object\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGround.cpp">
+      <Filter>Engine\04.Object\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMgr.cpp">
+      <Filter>Engine\03.Manager\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSLASH.cpp">
+      <Filter>Engine\04.Object\Effect\Player\SLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="CBeetle.cpp">
+      <Filter>Engine\04.Object\Monster\Beetle2</Filter>
+    </ClCompile>
+    <ClCompile Include="CBeetle_New.cpp">
+      <Filter>Engine\04.Object\Monster\Beetle</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpBarUI.cpp">
+      <Filter>Engine\04.Object\UI\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CFocus.cpp">
+      <Filter>Engine\04.Object\Effect\Player\Focus</Filter>
+    </ClCompile>
+    <ClCompile Include="CFireBall.cpp">
+      <Filter>Engine\04.Object\Effect\Player\Fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="CProFireBall.cpp">
+      <Filter>Engine\04.Object\Effect\Player\ProFireball</Filter>
+    </ClCompile>
+    <ClCompile Include="CFalseKnight.cpp">
+      <Filter>Engine\04.Object\Monster\FalseKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Engine\04.Object\UI\Inventory\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeo.cpp">
+      <Filter>Engine\04.Object\UI\Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoulUI.cpp">
+      <Filter>Engine\04.Object\UI\SoulUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlashHitEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Player\SlashHitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CDashEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Player\DashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CStone.cpp">
+      <Filter>Engine\04.Object\Monster\FalseKnight\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="CUPSLASH.cpp">
+      <Filter>Engine\04.Object\Effect\Player\UPSLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Engine\03.Manager\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Engine\06.Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CHUD.cpp">
+      <Filter>Engine\04.Object\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="CLiquidUI.cpp">
+      <Filter>Engine\04.Object\UI\LiquidUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlackFilter.cpp">
+      <Filter>Engine\04.Object\UI\BlackFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDamaged.cpp">
+      <Filter>Engine\04.Object\Effect\Player\PlayerDamaged</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackWave.cpp">
+      <Filter>Engine\04.Object\Effect\FalseKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Second.cpp">
+      <Filter>Engine\05.Scene\Scene_Second</Filter>
+    </ClCompile>
+    <ClCompile Include="CTown.cpp">
+      <Filter>Engine\04.Object\BackGround\Town</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpc.cpp">
+      <Filter>Engine\04.Object\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcreaction.cpp">
+      <Filter>Engine\04.Object\Npc\NpcReaction</Filter>
+    </ClCompile>
+    <ClCompile Include="CElderBugQuest.cpp">
+      <Filter>Engine\04.Object\UI\Quest\ElderBug</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>Engine\04.Object\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Cclock_Item.cpp">
+      <Filter>Engine\04.Object\UI\Inventory\Item\cloak_item</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemCusor.cpp">
+      <Filter>Engine\04.Object\UI\Inventory\Item\item_cusor</Filter>
+    </ClCompile>
+    <ClCompile Include="CWing_item.cpp">
+      <Filter>Engine\04.Object\UI\Inventory\Item\wing_item</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Thrid.cpp">
+      <Filter>Engine\05.Scene\Scene_Third</Filter>
+    </ClCompile>
+    <ClCompile Include="CHornetBossRoom.cpp">
+      <Filter>Engine\04.Object\BackGround\HornetBossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CHornet.cpp">
+      <Filter>Engine\04.Object\Monster\Hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="CHornetDashEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Hornet\DashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CNeedle.cpp">
+      <Filter>Engine\04.Object\Effect\Hornet\Needle</Filter>
+    </ClCompile>
+    <ClCompile Include="CNeedleThread.cpp">
+      <Filter>Engine\04.Object\Effect\Hornet\NeedleThread</Filter>
+    </ClCompile>
+    <ClCompile Include="CThrowEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Hornet\ThrowEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CSphereBall.cpp">
+      <Filter>Engine\04.Object\Effect\Hornet\SphereBall</Filter>
+    </ClCompile>
+    <ClCompile Include="CStunEffect.cpp">
+      <Filter>Engine\04.Object\Effect\StunEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Game_Start.cpp">
+      <Filter>Engine\05.Scene\Game_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartBackGround.cpp">
+      <Filter>Engine\04.Object\BackGround\StartBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartCusor.cpp">
+      <Filter>Engine\04.Object\BackGround\StartBackGround\StartCusor</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownSlash.cpp">
+      <Filter>Engine\04.Object\Effect\Player\DownSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrawlBug.cpp">
+      <Filter>Engine\04.Object\Monster\CrawlBug</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlyBug.cpp">
+      <Filter>Engine\04.Object\Monster\FlyBug</Filter>
+    </ClCompile>
+    <ClCompile Include="CDashBug.cpp">
+      <Filter>Engine\04.Object\Monster\DashBug</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_FinalBoss.cpp">
+      <Filter>Engine\05.Scene\Scene_FinalBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="CFinalBossRoom.cpp">
+      <Filter>Engine\04.Object\BackGround\FinalBossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CPureVessel.cpp">
+      <Filter>Engine\04.Object\Monster\PureVessel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpikeEffect.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="COrb.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Orb</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear20minusAngle.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear20minusAngle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear5angle.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear5angle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear8_5MinusAngle.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear8_5minusAngle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear30angle.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear30angle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpear15Angle.cpp">
+      <Filter>Engine\04.Object\Effect\PureVessel\Spear15angle</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage2.cpp">
+      <Filter>Engine\05.Scene\Scene_Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage2.cpp">
+      <Filter>Engine\04.Object\BackGround\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="CWing.cpp">
+      <Filter>Engine\04.Object\Effect\Player\Wing</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewDashEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Player\NewDashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CStore.cpp">
+      <Filter>Engine\04.Object\UI\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrump.cpp">
+      <Filter>Engine\04.Object\Npc\Trump</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoreCusor.cpp">
+      <Filter>Engine\04.Object\UI\Store\StoreCusor</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoreItemlist.cpp">
+      <Filter>Engine\04.Object\UI\Store\StoreItemlist</Filter>
+    </ClCompile>
+    <ClCompile Include="CMushRoom.cpp">
+      <Filter>Engine\04.Object\Monster\MushRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStunEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Player\StunEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CEndingBackGround.cpp">
+      <Filter>Engine\04.Object\BackGround\EndingBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_End.cpp">
+      <Filter>Engine\05.Scene\Scene_End</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeoRock.cpp">
+      <Filter>Engine\04.Object\GeoRock</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneFinalbossVideo.cpp">
+      <Filter>Engine\05.Scene\Scene_FinalbossVideo</Filter>
+    </ClCompile>
+    <ClCompile Include="CProFireballHitEffect.cpp">
+      <Filter>Engine\04.Object\Effect\Player\ProFireballHitEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="2개월차_Winapi.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2개월차_Winapi.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

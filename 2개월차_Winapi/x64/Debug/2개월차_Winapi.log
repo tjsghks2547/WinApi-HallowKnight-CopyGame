@@ -1,0 +1,162 @@
+﻿  2개월차_Winapi.cpp
+  AI.cpp
+  CAnimation.cpp
+  CAnimator.cpp
+  CAttackWave.cpp
+  CBackGround.cpp
+  CBeetle.cpp
+  CBeetle_New.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CBlackFilter.cpp
+  CBtnUI.cpp
+  CCamera.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Cclock_Item.cpp
+  CCollider.cpp
+  CCollisionMgr.cpp
+  CCrawlBug.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CDashBug.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CDashEffect.cpp
+  CDownSlash.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CElderBugQuest.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CEndingBackGround.cpp
+  CEventMgr.cpp
+  CFalseKnight.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CFinalBossRoom.cpp
+  CFireBall.cpp
+  CFlyBug.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CFocus.cpp
+  CGeo.cpp
+  CGeoRock.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CGravity.cpp
+  CGround.cpp
+  CHornet.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CHornetBossRoom.cpp
+  CHornetDashEffect.cpp
+  CHpBarUI.cpp
+  CHUD.cpp
+  CIdleState.cpp
+  CInventory.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CItem.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CItemCusor.cpp
+  CKeyMgr.cpp
+  CLiquidUI.cpp
+  CMissile.cpp
+  CMissile2.cpp
+  CMonFactory.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CMonFactory.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CMonster.cpp
+  CMonster_Missile.cpp
+  CMushRoom.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CNeedle.cpp
+  CNeedleThread.cpp
+  CNewDashEffect.cpp
+  CNpc.cpp
+  CNpcreaction.cpp
+  CObject.cpp
+  COrb.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CPanelUI.cpp
+  CPathMgr.cpp
+  CPlayer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CPlayerDamaged.cpp
+  CPlayerMgr.cpp
+  CPlayerStunEffect.cpp
+  CProFireBall.cpp
+  CProFireballHitEffect.cpp
+  CPureVessel.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CResMgr.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CRes.cpp
+  CRigidBody.cpp
+  CScene.cpp
+  CSceneFinalbossVideo.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CSceneMgr.cpp
+  CScene_End.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_FinalBoss.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Game_Start.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Second.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Stage2.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Start.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Thrid.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CScene_Tool.cpp
+  CSLASH.cpp
+  CSlashHitEffect.cpp
+  CSoulUI.cpp
+  CSound.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CSoundMgr.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CSpear.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear.cpp(61,17): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear.cpp(62,17): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CSpear15Angle.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear15Angle.cpp(56,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear15Angle.cpp(57,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  CSpear20minusAngle.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear20minusAngle.cpp(59,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear20minusAngle.cpp(60,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  CSpear30angle.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear30angle.cpp(57,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  CSpear5angle.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear5angle.cpp(57,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear5angle.cpp(58,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  CSpear8_5MinusAngle.cpp
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear8_5MinusAngle.cpp(58,17): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\2개월차_Winapi\CSpear8_5MinusAngle.cpp(59,17): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  CSphereBall.cpp
+  CSpikeEffect.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CStage2.cpp
+  CStartBackGround.cpp
+  CStartCusor.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CState.cpp
+  CStone.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CStore.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CStoreCusor.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CStoreItemlist.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  CStunEffect.cpp
+  CTexture.cpp
+  CThrowEffect.cpp
+  CTile.cpp
+  CTimeMgr.cpp
+  CTown.cpp
+  CTraceState.cpp
+  CTrump.cpp
+  CUI.cpp
+  CUIMgr.cpp
+  CUPSLASH.cpp
+  CWing.cpp
+  CWing_item.cpp
+  C_Core.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  func.cpp
+  pch.cpp
+  SelectGDI.cpp
+  2개월차_Winapi.vcxproj -> C:\Users\tjsgh\Desktop\C_Study\7_18\7_18\x64\Debug\2개월차_Winapi.exe
