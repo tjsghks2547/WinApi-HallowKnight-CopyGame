@@ -3,8 +3,8 @@
 
 <div align="center">
   WinApi을 활용하여 게임 모작에서 직접 구현한 기능들의 샘플 코드입니다.<br><br>
-  <img width="308" alt="할로우나이트사진" src="https://github.com/user-attachments/assets/9704d0e5-07a0-4944-bba7-1398afba00f1" />
-" />
+  <img width="308" alt="할로우나이트사진" src="https://github.com/user-attachments/assets/9704d0e5-07a0-4944-bba7-1398afba00f1"/>
+
 <br><br>
   개발기간 : 2개월 <br><br>
   개발인원 : 개인 <br><br>
